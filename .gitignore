@@ -1,0 +1,20 @@
+# Secrets
+.env
+.env.*
+
+# Environments and downloaded models
+.venv/
+.venv-pyannote/
+models/
+__pycache__/
+
+# Audio and transcripts
+audio/
+*.transcript.txt
+*.transcript.json
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.mp4

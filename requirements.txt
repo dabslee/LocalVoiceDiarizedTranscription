@@ -1,0 +1,9 @@
+# CPU build of PyTorch; much smaller than the default GPU build on Windows.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+pyannote.audio>=4.0.7
+faster-whisper>=1.2.1
+# faster-whisper 1.2.1 passes metadata_errors to av.open, which av 19 removed.
+av<19
+tqdm>=4.70
+numpy

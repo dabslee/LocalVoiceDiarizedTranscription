@@ -1,0 +1,6 @@
+faster-whisper>=1.2.1
+# faster-whisper 1.2.1 passes metadata_errors to av.open, which av 19 removed.
+av<19
+sherpa-onnx>=2.0.1
+tqdm>=4.70
+numpy
